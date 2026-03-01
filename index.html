@@ -1,75 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evandro Luiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <h1>Evandro luiz</h1>
-    <nav>
-        <ul>
-            <li><a href="#sobre">Sobre mim</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-        </ul>
-    </nav>
+    <header id="header">
+        <nav id="navbar">
+            <h1 id="titulo">DevPortfólio</h1>
+            <ul id="menu">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
 
-    <section id="sobre">
-        <h2>Sobre mim</h2>
+        <div id="div-conteiner">
+            <h2 id="intro">Olá, eu sou Evandro Luiz,</h2>
+            <img src="Evandro 2.jpeg" alt="foto de perfil">
+            <h1>Desenvolver Web em formação</h1>
+            <p id="descricao">Buscando trazer inovações em forma de códigos</p>
+        </div>
+    </header>
+    <div id="div-conteudo">
+        <section id="sobre">
+            <h1>Sobre mim</h1>
+            <p>Sou desenvolvedor em início de carreira, focado em Back-End e em constante evolução para atuar como Full
+                Stack. Tenho conhecimento em HTML, CSS e JavaScript, construindo interfaces estruturadas e funcionais.
+            </p>
+            <p>Sou autodidata, gosto de entender a lógica por trás das aplicações e estou sempre buscando aprofundar
+                meus conhecimentos em desenvolvimento de software. Este portfólio faz parte da minha jornada de
+                crescimento profissional e representa meu compromisso com a área.</p>
+            <p>Busco oportunidades para aprender, evoluir tecnicamente e contribuir com projetos desafiadores.</p>
+        </section>
+        <section id="projetos">
+            <h1>Projetos</h1>
+    <div class="projetos-conteiner">
 
-        <img src="Evandro 2.jpeg" alt="foto de perfil" width="150">
-    </section id="sobre">
-    <article>
-        <p>Olá, como podem ver me chamo Evandro e sou um futuro desenvolvedor web back-end, focado em criar soluções
-            práticas e eficientes através da programação.</p>
-    </article>
+        <div class="projetos-cards">
+            
+            <img src="./img/listadetarefa.png" alt="lista de tarefa">
+            <h2>Lista de tarefas</h2>
+            <p>Aplicação para gerenciamento de tarefas.</p>
+            <a href="https://evandro-lp.github.io/To-do-list/" target="_blank">Ver projeto</a>
+        </div>
 
-    <aside>
+        <div class="projetos-cards">
+            <img src="./img/calculadoradecomissao.png" alt="calculadora de comissão">
+            <h2>Calculadora de comissão</h2>
+            <p>Aplicação para corretores calcular suas comissões.</p>
+            <a href="https://evandro-lp.github.io/Calculadora-de-comiss-o/" target="_blank">Ver projeto</a>
+        </div>
 
-        <h3>Habilidades</h3>
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-        </ul>
-    </aside>
+    </div>
 
-    <section id="projetos">
-        <h2>Projetos</h2>
-    
-    <article>
-        <a href="https://evandro-lp.github.io/To-do-list/" target="_blank">
-            <h3 >Lista de tarefa</h3>
-        </a>
-        <a href="https://evandro-lp.github.io/Calculadora-de-comiss-o/" target="_blank">
-            <h3>Calculadora de comissão</h3>
-        </a>
-    </article>
+    <section id="habilidades">
+        <H1>Habilidades</H1>
+        <p>Tecnologias e habilidades que impulsionam meus projetos.</p>
+        <div class="habilidades-lista">
+            <div class="habilidades-card">
+                 <i class="fab fa-html5"></i>
+                <span>Intermediário</span>
+            </div>
+            <div class="habilidades-card">
+                <i class="fab fa-css3-alt"></i>
+                <span>Intermediário</span>
+            </div>
+            <div class="habilidades-card">
+                <i class="fab fa-js-square"></i>
+                <span>Iniciante</span>
+            </div>
+        </div>
+    </section>
 </section>
-
-    <section>
         <footer>
             <p>Direitos reservados a Evandro</p>
-<section>
-    <h2>Contatos</h2>
+            <section>
+                <h2>Contatos</h2>
 
- <p>Tem um projeto em mente?entre em contato</p>
+                <p>Tem um projeto em mente?entre em contato</p>
 
- <address>
-    <a href="https://github.com/Evandro-lP" target="_blank">
-    GitHub
-  </a><br>
+                <address>
+                    <a href="https://github.com/Evandro-lP" target="_blank">
+                        GitHub
+                    </a><br>
 
-  <a href="mailto:hit.evandro@gmail.com">
-    hit.evandro@gmail.com
-  </a>
- </address>
-</section>
+                    <a href="mailto:hit.evandro@gmail.com">
+                        hit.evandro@gmail.com
+                    </a>
+                </address>
+            </section>
         </footer>
-    </section>
+        </section>
 </body>
 
 </html>

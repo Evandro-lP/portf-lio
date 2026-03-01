@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'montserrat', Helvetica, sans-serif;
+    background-color: #01161e;
+    color: #fff
+    ;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#titulo{
+    color: #598392;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+
+#menu {
+    display: flex;
+    gap: 10px;
+}
+
+#header {
+    height: 100vh;
+     
+}
+
+#div-conteiner {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#div-conteiner img {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#intro {
+    color: #598392;
+    margin-bottom: 10px;
+}
+
+#div-conteiner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#descricao {
+    color: #598392;
+}
+#sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    padding: 1em;
+    text-align: center;
+}
+
+#sobre h2 {
+    color: #598392;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#sobre h1 {
+    color: #598392;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#div-conteudo {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#div-conteudo p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+    max-width: 600px;
+    font-size: 1em;
+}
+
+#projetos{
+    min-height: 100vh;
+    text-align: center;
+
+}
+
+.projetos-conteiner {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.projetos-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    padding: 20px;
+    background: #124559;
+    border-radius: 10px;
+    height: 400px;}
+
+.projetos-cards img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+#projetos h1 {
+    color: #598392;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#projetos h2 {
+    color: #598392;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.projetos-cards:hover{
+  border: 2px solid #a0c1d1;  
+}
+.projetos-cards p {
+    margin-bottom: 15px;
+}
+
+.projetos-cards a {
+    display: inline-block;
+    margin-top: auto; 
+    padding: 10px 20px;
+    color: #598392;
+    font-weight: bold;
+    border: 2px solid #598392;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.projetos-cards a:hover{
+     border: 2px solid #a0c1d1;  
+}
+
+
+#habilidades {
+    height: 100vh;
+    display: flex;             /* ativa flex no container */
+    flex-direction: column;    /* empilha h1, p e lista */
+    justify-content: center;   /* centraliza verticalmente */
+    align-items: center;       /* centraliza horizontalmente */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.habilidades-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.habilidades-card {
+   background-color: #124559;
+   border: 1px solid #598392;
+   border-radius: 10px;
+   padding: 20px;
+   width:150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.habilidades-card i {
+    font-size: 50px;
+    color: #f0db4f;
+}
+
+.habilidades-card span {
+    color: #a0c1d1;
+    font-size: 1em;
+    text-align: center;
+
+}
+
+#habilidades p {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.habilidades-card:hover {
+    border: 1px solid #f0db4f;
+
+}
