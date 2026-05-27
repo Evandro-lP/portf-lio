@@ -19,6 +19,10 @@ button:focus {
     box-shadow: none;
 }
 
+.quebra-mobile {
+    display: none;
+}
+
 li {
     list-style: none;
 }
@@ -425,5 +429,14 @@ a {
     
     #div-conteiner h1 {
         font-size: 2em;
+    }
+
+    .quebra-mobile {
+        display: block;
+    }
+
+    #contatos p.subtitulo-contato {
+        margin-bottom: 40px;
+        padding: 0 10px;
     }
 }
