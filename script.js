@@ -31,7 +31,8 @@ estiloTemaClaro.innerHTML = `
     body.light-theme .projetos-cards,
     body.light-theme .habilidades-card,
     body.light-theme .contatos-item,
-    body.light-theme #footer {
+    body.light-theme #footer,
+    body.light-theme #menu { /* CORREÇÃO: O menu mobile agora também ganha o fundo claro */
         background-color: #faf8f5 !important;
         color: #2b2d42 !important;
         border: 1px solid #b7b7a4 !important;
