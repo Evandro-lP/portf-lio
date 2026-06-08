@@ -4,90 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evandro Luiz</title>
+    <title>Evandro Luiz - Portfólio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+
     <header id="header">
         <nav id="navbar">
             <h1 id="titulo">DevPortfólio</h1>
+
             <ul id="menu">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contatos">Contatos</a></li>
             </ul>
+
+            <button id="botao-tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button id="btn-menu-hamburguer">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </nav>
 
         <div id="div-conteiner">
             <h2 id="intro">Olá, eu sou Evandro Luiz,</h2>
             <img src="Evandro 2.jpeg" alt="foto de perfil">
-            <h1>Desenvolver Web em formação</h1>
-            <p id="descricao">Buscando trazer inovações em forma de códigos</p>
+            <h1>Desenvolvedor Web<br class="quebra-mobile"> em formação</h1>
+            <p id="descricao">Buscando trazer inovações<br class="quebra-mobile"> em forma de códigos</p>
         </div>
     </header>
-    <div id="div-conteudo">
-        <section id="sobre">
-            <h1>Sobre mim</h1>
-            <p>Sou desenvolvedor em início de carreira, focado em Back-End e em constante evolução para atuar como Full
-                Stack. Tenho conhecimento em HTML, CSS e JavaScript, construindo interfaces estruturadas e funcionais.
-            </p>
-            <p>Sou autodidata, gosto de entender a lógica por trás das aplicações e estou sempre buscando aprofundar
-                meus conhecimentos em desenvolvimento de software. Este portfólio faz parte da minha jornada de
-                crescimento profissional e representa meu compromisso com a área.</p>
-            <p>Busco oportunidades para aprender, evoluir tecnicamente e contribuir com projetos desafiadores.</p>
+
+    <section id="sobre">
+        <h1>Sobre mim</h1>
+        <p>Sou desenvolvedor em início de carreira, focado em Back-End e em constante evolução para atuar como Full Stack. Tenho conhecimento em HTML, CSS e JavaScript, construindo interfaces estruturadas e funcionais.</p>
+        <p>Sou autodidata, gosto de entender a lógica por trás das aplicações e estou sempre buscando aprofundar meus conhecimentos em desenvolvimento de software. Este portfólio faz parte da minha jornada de crescimento profissional e representa meu compromisso com a área.</p>
+        <p>Busco oportunidades para aprender, evoluir tecnicamente e contribuir com projetos desafiadores.</p>
+    </section>
+
+    <section id="projetos">
+        <h1>Projetos</h1>
+        <div class="projetos-conteiner">
+            <div class="projetos-cards">
+                <img src="./img/listadetarefa.png" alt="lista de tarefa">
+                <h2>Lista de tarefas</h2>
+                <p>Aplicação para gerenciamento de tarefas.</p>
+                <a href="https://evandro-lp.github.io/To-do-list/" target="_blank">Ver projeto</a>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="./img/calculadoradecomissao.png" alt="calculadora de comissão">
+                <h2>Calculadora de comissão</h2>
+                <p>Aplicação para corretores calcular suas comissões.</p>
+                <a href="https://evandro-lp.github.io/Calculadora-de-comiss-o/" target="_blank">Ver projeto</a>
+            </div>
+            <div class="projetos-cards">
+    <img src="img/hamei-pet.png" alt="pet-shop">
+    <h2>Hamei.pet</h2>
+    <p>Landing page institucional para pet shop.</p>
+    <p style="color: red;">TESTE DE EXIBIÇÃO</p> <a href="https://evandro-lp.github.io/petshop/" target="_blank">Ver projeto</a>
+</div>
+        </div>
         </section>
-        <section id="projetos">
-            <h1>Projetos</h1>
-    <div class="projetos-conteiner">
-
-        <div class="projetos-cards">
-            
-            <img src="./img/listadetarefa.png" alt="lista de tarefa">
-            <h2>Lista de tarefas</h2>
-            <p>Aplicação para gerenciamento de tarefas.</p>
-            <a href="https://evandro-lp.github.io/To-do-list/" target="_blank">Ver projeto</a>
-        </div>
-
-        <div class="projetos-cards">
-            <img src="./img/calculadoradecomissao.png" alt="calculadora de comissão">
-            <h2>Calculadora de comissão</h2>
-            <p>Aplicação para corretores calcular suas comissões.</p>
-            <a href="https://evandro-lp.github.io/Calculadora-de-comiss-o/" target="_blank">Ver projeto</a>
-        </div>
-
-    </div>
-</section>
     <section id="habilidades">
-        <H1>Habilidades</H1>
+        <h1>Habilidades</h1>
         <p>Tecnologias e habilidades que impulsionam meus projetos.</p>
         <div class="habilidades-lista">
             <div class="habilidades-card">
-                 <i class="fab fa-html5"></i>
+                <i class="fa-brands fa-html5"></i>
                 <span>Intermediário</span>
             </div>
             <div class="habilidades-card">
-                <i class="fab fa-css3-alt"></i>
+                <i class="fa-brands fa-css3-alt"></i>
                 <span>Intermediário</span>
             </div>
             <div class="habilidades-card">
-                <i class="fab fa-js-square"></i>
+                <i class="fa-brands fa-js-square"></i>
                 <span>Iniciante</span>
             </div>
         </div>
     </section>
+
     <section id="contatos">
         <h1>Entre em contato.</h1>
-        <p>Tem um projeto em mente?sempre aberto a novas ideias</p>
+        <p class="subtitulo-contato">Tem um projeto em mente? Sempre aberto a novas ideias.</p>
         <div class="contatos-lista">
             <div class="contatos-item">
-                <i class="fa-solid fa-envelope-circle-check"></i>
+                <i class="fa-solid fa-envelope"></i>
                 <span>hit.evandro@gmail.com</span>
             </div>
             <div class="contatos-item">
@@ -98,18 +108,19 @@
                 <i class="fa-solid fa-location-dot"></i>
                 <span>Florianópolis - SC</span>
             </div>
-            
         </div>
+        
         <div class="redes-sociais">
-                <a href="https://github.com/Evandro-lP" target="_blank"> <i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/e_luiz96/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/5548996612674" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
-            </div>
+            <a href="https://github.com/Evandro-lP" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/e_luiz96/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/5548996612674" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
     </section>
 
     <footer id="footer">
-        <p>Direitos reservados a Evandro luiz</p>
+        <p>Direitos reservados a Evandro Luiz.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
